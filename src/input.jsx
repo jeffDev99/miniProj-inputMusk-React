@@ -1,14 +1,15 @@
-/* eslint-disable react/prop-types */
-const Input = ({handleChange, hint}) => {
+import styles from "./input.module.css"
+const Input = ({handleChange, hint , inputValue}) => {
   return (
-    <div className="input">
-      <label htmlFor="input" >
+    <div className={styles.input}>
+      <label htmlFor={styles.input} >
         {hint}
       </label>
       <input
         type="text"
-        id="input"
+        id={styles.input}
         onChange={handleChange}
+        value={inputValue}
       />
     </div>
   );

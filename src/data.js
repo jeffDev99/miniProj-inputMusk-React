@@ -1,4 +1,4 @@
-[
+const cities = [
   "Aberdeen",
   "Abilene",
   "Akron",
@@ -385,3 +385,5 @@
   "York",
   "Youngstown"
 ]
+
+export {cities}

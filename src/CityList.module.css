@@ -1,0 +1,30 @@
+.cityList {
+  max-width: 300px;
+  margin: 0 auto;
+  list-style: none;
+  max-height: 400px;
+  overflow-y: auto;
+  background-color: #11548f;
+  color: #fff;
+  border-radius: 8px;
+  padding: 0;
+}
+.cityList li {
+  padding: 0.5rem;
+  transition: 0.2s ease-in-out all;
+  cursor: pointer;
+}
+.cityList li:hover {
+  background-color: #1e88e5;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #1e88e5;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+::-webkit-scrollbar {
+  background-color: #e1f5fe;
+  width: 10px !important;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
