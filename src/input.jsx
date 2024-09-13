@@ -1,4 +1,4 @@
-import styles from "./input.module.css"
+import styles from "./Input.module.css"
 const Input = ({handleChange, hint , inputValue}) => {
   return (
     <div className={styles.input}>
